@@ -1,0 +1,135 @@
+﻿body {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-image: url("https://montecarlotennismasters.com/wp-content/uploads/2019/05/atp_masterbrand2018_masters1000_lightbg-01.jpg");
+    background-size: 1080px 3000px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#top {
+    width: 800px;
+    margin: auto;
+    height: 80px;
+}
+
+#header {}
+
+#content {
+    margin: 15px;
+    color: white;
+}
+
+#footer {
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    color: gold;
+}
+
+#menu {
+    width: 800px;
+    margin: auto;
+    height: 40px;
+    background-color: gold;
+    color: white;
+    line-height: 40px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#menu ul li {
+    float: left;
+    width: 125px;
+    position: relative;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover {
+    color: gray;
+}
+
+#submenu {
+    display: none;
+    position: absolute;
+    z-index: 90;
+    background: gold;
+}
+
+#submenu li {
+    border-bottom: 1px dashed;
+}
+
+#menu li:hover #submenu {
+    display: block;
+}
+
+.searchform {
+    float: left;
+    margin-top: 5px;
+    border: white 2px solid;
+    height: 27px;
+    width: 290px;
+}
+
+.searchform input[type=text] {
+    width: 220px;
+    height: 21px;
+    border: 0px;
+    background: white;
+    color: white;
+    float: left;
+    margin: 0px;
+    padding: 3px;
+}
+
+.searchform input[type=submit] {
+    border: white 2px solid;
+    float: right;
+    margin: 2px 2px 2px 2px;
+    height: 23px;
+    padding-top: 1px;
+    background: gold;
+}
+
+#wrapper {}
+
+#main {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    background-color: gold;
+}
+
+#main {
+    list-style-type: none;
+    color: gold;
+}
+
+#caudaubaiviet {
+    color: white;
+}
+
+#bottom {
+    background-color: gold;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+.hidden {
+    display: none;
+}
